@@ -1,0 +1,50 @@
+footer {
+    background-color: var(--clr_dark_sec);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column {
+    text-align: center;
+    flex: 1;
+}
+.footer-column h3 {
+    margin-bottom: 20px;
+}
+
+.footer-column a {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.footer-column .me:hover {
+    color: var(--clr_blue);
+}
+
+.discord,
+.forum,
+.youtube {
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: box-shadow 0.3s ease;
+}
+.discord {
+    background: rgb(114, 137, 218);
+}
+.forum {
+    background: rgb(65, 77, 90);
+}
+.youtube {
+    background: rgb(255, 0, 0);
+}
+
+.discord:is(:hover, :focus) {
+    box-shadow: 0 0 20px rgba(114, 137, 218, 0.8); 
+}
+.forum:is(:hover, :focus) {
+    box-shadow: 0 0 20px rgba(65, 77, 90, 0.8);
+}
+.youtube:is(:hover, :focus) {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+}

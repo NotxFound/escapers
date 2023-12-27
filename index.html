@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+    <!-- <script src="https://kit.fontawesome.com/213a6519f9.js" crossorigin="anonymous"></script> -->
+    <script src="script.js"></script>
+
+    <link rel="icon" href="src/icon.webp">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-nav.css">
+    <link rel="stylesheet" href="style-footer.css">
+
+    <title>Escapers</title>
+</head>
+<body>
+    <nav>
+        <img src="src/icon.webp" alt="Logo">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" id="menu-icon" class="fa-solid fa-bars"></label>
+        <ul>
+            <li><a href="#serwer"><i class="fa-solid fa-house"></i> O Serwerze</i></a></li>
+            <li><a href="#administracja"><i class="fa-solid fa-shield-halved"></i> Administracja</a></li>
+            <li><a href="#komendy"><i class="fa-solid fa-code"></i> Komendy</a></li>
+            <li><a href="#regulamin"><i class="fa-solid fa-list"></i> Regulamin</a></li>
+            <li><a href="#kontakt"><i class="fa-solid fa-envelope"></i> Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 id="serwer">Serwer</h1>
+        <section>
+            <div class="info_boxes">
+                <div class="info_box">
+                    <h3 class="info_box_title">IP Serwera</h3>
+                    <p class="info_box_text">147.135.197.53:27015<button href="#" onclick="copyText()"> <i class="fa-solid fa-copy"></i></button></p>
+                    <a href="steam://connect/147.135.197.53:27015/"><span><i class="fa-solid fa-link"></i> Połącz</span></a>
+                </div>
+                <div class="info_box">
+                    <h3 class="info_box_title">GameTracker</h3>
+                    <p><img src="https://cache.gametracker.com/server_info/147.135.197.53:27015/b_560_95_1.png" alt="GT"/></p>
+                    <a href="https://www.gametracker.com/server_info/147.135.197.53:27015/" target="_blank"><span><i class="fa-solid fa-globe"></i> Przejdź</span></a>
+                </div>
+                <div class="info_box">
+                    <h3 class="info_box_title">Obecna Sieć</h3>
+                     <p><img class="siec_logo" src="src/siec_logo.png" alt="multi-head"/></p>
+                    <a href="https://multi-head.pl/" target="_blank"><span><i class="fa-solid fa-globe"></i> Przejdź</span></a>
+                </div>
+                <div class="info_box">
+                    <h3 class="info_box_title">Misje</h3>
+                    <p class="info_box_text">Sprawdź swoje lub kogoś misje</p>
+                    <a href="http://zombieachieves.rf.gd/" target="_blank"><span><i class="fa-solid fa-globe"></i> Przejdź</span></a>
+                </div>
+            </div>
+        </section>
+
+        <h1 id="administracja">Administracja</h1>
+        <section>
+            <div class="user_category" id="wlasciciele">
+                <div class="user_cards">
+                    <div class="user_card">
+                        <div class="user_avatar">
+                            <img src="src/admins/man1ek.webp" alt="man1ek avatar">
+                        </div>
+                        <div class="user_info">
+                            <h3 class="user_name">man1ek</h3>
+                            <p class="user_role wlasciciel">Właściciel</p>
+                        </div>
+                    </div>
+                    <div class="user_card">
+                        <div class="user_avatar">
+                            <img src="src/admins/diabel.webp" alt="diabel avatar">
+                        </div>
+                        <div class="user_info">
+                            <h3 class="user_name">DIABEL</h3>
+                            <p class="user_role wlasciciel">Właściciel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user_category" id="opiekunowie">
+                <div class="user_cards">
+                    <div class="user_card">
+                        <div class="user_avatar">
+                            <img src="src/admins/chudybyk.webp" alt="chudybyk avatar">
+                        </div>
+                        <div class="user_info">
+                            <h3 class="user_name">ChudyByk</h3>
+                            <p class="user_role opiekun">Opiekun</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user_category" id="administratorzy">
+                <div class="user_cards">
+                    <div class="user_card">
+                        <div class="user_avatar">
+                            <img src="src/admins/ryblien.webp" alt="ryblien avatar">
+                        </div>
+                        <div class="user_info">
+                            <h3 class="user_name">Ryblien</h3>
+                            <p class="user_role admin">Admin</p>
+                        </div>
+                    </div>
+                    <div class="user_card">
+                        <div class="user_avatar">
+                            <img src="src/admins/ak47m4a1.webp" alt="ak47m4a1 avatar">
+                        </div>
+                        <div class="user_info">
+                            <h3 class="user_name">AK-47 | M4A1</h3>
+                            <p class="user_role admin">Admin</p>
+                        </div>
+                    </div>
+                    <div class="user_card">
+                        <div class="user_avatar">
+                            <img src="src/admins/grzegorz.webp" alt="grzegorz avatar">
+                        </div>
+                        <div class="user_info">
+                            <h3 class="user_name">Grzegorz</h3>
+                            <p class="user_role admin">Admin</p>
+                        </div>
+                    </div>
+                    <div class="user_card">
+                        <div class="user_avatar">
+                            <img src="src/admins/counterek.webp" alt="counterek avatar">
+                        </div>
+                        <div class="user_info">
+                            <h3 class="user_name">Counterek</h3>
+                            <p class="user_role admin">Admin</p>
+                        </div>
+                    </div>
+                    <div class="user_card">
+                        <div class="user_avatar">
+                            <img src="src/admins/ktivgames.webp" alt="ktivgames avatar">
+                        </div>
+                        <div class="user_info">
+                            <h3 class="user_name">KTIVGames</h3>
+                            <p class="user_role admin">Admin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h1 id="komendy">Komendy</h1>
+        <section>
+            <div class="command_list">
+                <div class="command_box">
+                    <span class="command">/menu</span>
+                    <p class="description">Otwiera głowne menu moda Zombie Escape</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/sklepsms</span>
+                    <p class="description">Sklepsms, kupisz każda usługę dostępna na serwerze</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/klan</span>
+                    <p class="description">Otwiera menu Klanu</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/misje</span>
+                    <p class="description">Otwiera okno z Misjami</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/knife</span>
+                    <p class="description">Otwiera menu Noży</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/unstuck</span>
+                    <p class="description">Ręczne odblokowanie, jeżeli jesteś uwięziony np. w teksturze</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/jackpot</span>
+                    <p class="description">Graj z innymi graczami o monety, postaw a może wygrasz</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/get<span>*</span></span>
+                    <p class="description">Losowa nagroda (XP, Monety) UWAGA: może też zabrać</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/bonus<span>*</span></span>
+                    <p class="description">Otwiera menu Bonus</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/roll</span>
+                    <p class="description">Losowy efekt/moc, może być ona pozytywna lub negatywna</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/sound</span>
+                    <p class="description">Otwiera menu dźwięków, które możesz właczyć/wyłączyć</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/mute</span>
+                    <p class="description">Otwiera menu do mutowania graczy</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/help</span>
+                    <p class="description">Otwiera okno z opisem itemów dla Human/Zombie</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/vips</span>
+                    <p class="description">Pokazuje informacje na czacie o obecnych vipach/svipach na serwerze</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/vip</span>
+                    <p class="description">Pokazuje okno z informacjami co posiada VIP</p>
+                </div>
+                <div class="command_box">
+                    <span class="command">/svip</span>
+                    <p class="description">Pokazuje okno z informacjami co posiada SVIP</p>
+                </div>
+            </div>
+            <p class="komenda-info">* <span>Raz na mapę</span></p>
+        </section>
+
+        <h1 id="regulamin">Regulamin</h1>
+        <section>
+            <div class="rule_section">
+                <h2>1. ZAKAZY</h2>
+                <ol class="rule-list zakazy-counter">
+                    <li>Całkowity zakaz używania czitów i skryptów ułatwiających grę.</li>
+                    <li>Wchodzenie na serwer mając aktywnego bana jest nagradzane permem.</li>
+                    <li>Zakaz obrażania graczy/adminów serwera.</li>
+                    <li>Zakaz używania nicku, który zawiera treści faszystowskie, obrażające innego gracza lub religię.</li>
+                    <li>Nadużywanie wulgarnych słów może skutkować banem.</li>
+                    <li>Zakazuje się reklamowania innych serwerów jak i sieci serwerów.</li>
+                    <li>Spamowanie na czacie jak i na u@ może skutkować otrzymaniem kary.</li>
+                    <li>Zakaz nadużywania mikrofonu, puszczania muzyki.</li>
+                    <li>Posiadanie wysokiego pingu będzie nagradzane karą.</li>
+                    <li>Zakaz podmieniania skinów broni/postaci na modele ułatwiające grę (przezroczyste bronie, postacie ESL i tym podobne), podmienianie tekstur map (można używać tylko standardowych lub tych, co są na serwerze)</li>
+                    <li>Utrudnianie gry i przeszkadzanie innym graczom jest zabronione i będzie karane (dotyczy to też np. rozwalania obiektów uniemożliwiając przejście pozostałych ludzi).</li>
+                    <li>Podszywanie się, gra na nicku innej osoby jest zabronione.</li>
+                    <li>Zakaz wchodzenia na tekstury jak i wykorzystywania błędów mapy.</li>
+                    <li>Bugowanie helikoptera i innych pojazdów ucieczki jest zabronione.</li>
+                    <li>Zakaz używania reconnecta będąc zombie.</li>
+                    <li>Zakaz pomagania zombie będąc człowiekiem jak i odwrotnie.</li>
+                    <li>Zakazuje się nabijania monet i expa poprzez bicie afka. (Zakaz expienia)</li>
+                    <li>Zakaz używania Jetpacka podczas tzw. freezetime</li>
+                    <li>Zakaz wlatywania Jetpackiem w "końcową strefę" mapy (kill zone), która spowoduje smierć wszystkich graczy na serwerze.</li>
+                    <li>Na serwerze obowiązuje całkowity zakaz skanowania ludzi, natomiast można szparować humanów.</li>
+                </ol>
+            </div>
+            <div class="rule_section">
+                <h2>2. TARYFIKATOR BANÓW</h2>
+                <ol class="rule-list taryfikator-counter">
+                    <li>Czitowanie/niedozwolone skrypty ułatwiające grę - perm</li>
+                    <li>Wchodzenie na aktywnym banie - ban 7 dni - perm</li>
+                    <li>Obrażanie (nick, czat, mikrofon, spray, itd.):  ban od 1 godziny - 1 Tygodnia. Gracz, który posiada wiele banów za obrazę może otrzymać surowszą karę w postaci bana na zawsze.</li>
+                    <li>Niedozwolony nick - kick z upomnieniem / ban 5min -> 1h</li>
+                    <li>Brak kultury, nadużywanie wulgarnego słownictwa - upomnienie/ban 30min -> 3h</li>
+                    <li>Reklamowanie - ban 7 dni - perm.</li>
+                    <li>Spamowanie na czacie i u@ - kick/ban 5min -> 30min</li>
+                    <li>Nadużywanie mikrofonu/mikro przed mutacją/puszczanie muzyki - mute/ban od 5 min. do 3h</li>
+                    <li>Wysoki ping - kick z upomnieniem/ban 5min</li>
+                    <li>Niedozwolone modele - ban max do 7dni </li>
+                    <li>Utrudnianie gry i przeszkadzanie - upomnienie / ban 30min -> 1h</li>
+                    <li>Celowe podszywanie się - Pod (gracza) - ban 1dzień. Pod (Administracje) - ban na zawsze.</li>
+                    <li>Wchodzenie na tekstury i wykorzystywanie błędów mapy - ban od 5 min - 3h.</li>
+                    <li>Bugowanie przeszkód i pojazdów ucieczki - ban 30min</li>
+                    <li>Używanie reconnecta będąc zombie - ban 5 min -> 30min</li>
+                    <li>Pomaganie sobie nie będąc razem w drużynie - ban 30min</li>
+                    <li>Nabijanie coinsów bijąc afk'a - wyzerowanie konta (za drugim razem dodatkowo ban na 1 dzień)</li>
+                    <li>Podmienianie skinów broni/postaci na modele ułatwiające grę (przezroczyste bronie, postacie ESL i tym podobne), podmienianie tekstur map - [ban 1 dzień - PERM]</li>
+                    <li>Zakaz używania nicków wulgarnych / obraźliwych, nicków zbrodniarzy oraz nicków które prowokują administrację serwera oraz graczy - kick/ban max 1 dzień</li>
+                    <li>Zakaz Prowokacji Admina, prowokacyjnych nicków, gestów, sprayów, itp - ban 30/1 dzień</li>
+                </ol>
+            </div>
+            <div class="rule_section">
+                <h2>3. DODATKOWE UWAGI</h2>
+                <ol class="rule-list uwagi-counter">
+                    <li>Admin ma całkowity zakaz banowania innego admina. Takie sprawy proszę załatwiać na forum.</li>
+                    <li>Admin powinien regularnie odwiedzać serwer oraz forum.</li>
+                    <li>Admin ma zakaz nadużywania komend i władzy.</li>
+                    <li>Admin powinien znać regulamin oraz zasady panujące na serwerze.</li>
+                    <li>Admin powinien dawać przykład innym graczom.</li>
+                    <li>Admin jest dla graczy, nigdy na odwrót!</li>
+                    <li>Zakaz celowego wprowadzania w błąd administratorów.</li>
+                </ol>
+            </div>
+        </section>
+
+        <h1 id="kontakt">Kontakt</h1>
+        <section></section>
+    </main>
+
+    <footer>
+        <div class="footer-column">
+            <h3>Pomocne Linki</h3>
+            <a href="#" class="discord">Discord</a>
+            <a href="#" class="youtube">Youtube</a>
+            <a href="#" class="forum">Forum</a>
+        </div>
+        <div class="footer-column">
+            <h3>Strona stworzone przez NotFound</h3>
+            <p>Discord: notfound04</p>
+            <p>Steam: <a class="me" href="https://steamcommunity.com/id/N0txF0und/" target="_blank"><i class="fa-brands fa-steam"></i> N-O-T</a></p>
+        </div>
+    </footer>
+</body>
+</html>
