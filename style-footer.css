@@ -17,7 +17,7 @@ footer {
     margin: 5px 10px;
 }
 
-.footer-column .me:hover {
+.footer-column p a:hover {
     color: var(--clr_blue);
 }
 

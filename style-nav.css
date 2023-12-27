@@ -26,7 +26,7 @@ nav a {
     padding: 15px 10px;
 }
 nav i {
-    color: var(--clr_blue);
+    color: rgb(243, 224, 55);
 }
 nav a::before {
     content: "";
