@@ -53,7 +53,7 @@ h1 {
     scroll-margin-top: 70px;
     padding: 30px 1em;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: clamp(5px, 10px, 15px);
     font-size: 1.5em;
     text-align: center;
 }
