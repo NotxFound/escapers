@@ -15,9 +15,3 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-
-
-function copyText() {
-    navigator.clipboard.writeText("147.135.197.53:27015");
-    alert("IP serwera zostało skopiowane do schowka (CTRL+V aby wkleić)");
-}
