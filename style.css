@@ -345,14 +345,15 @@ h1::before {
     box-shadow: 0 0 20px var(--clr_blue);
 }
 
-.command_box span span {
+.command_box p span {
     color: red;
 }
 
 .command {
     font-size: 1.2em;
     font-weight: bold;
-    line-height: 3;
+    margin-bottom: 20px;
+    background-color: var(--clr_dark_main);
 }
 
 .komenda-info {
